@@ -25,5 +25,3 @@ employee = {
 for emp_id,emp_data in employee.items():
       print(f"Employee ID:{emp_id},Name:{emp_data['name']},Age:{emp_data['age']},Department:{emp_data['department']}")
       
-print()
-print(employee[104]["department"])
